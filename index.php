@@ -27,7 +27,8 @@
 							<li><a href="#intro">Intro</a></li>
 							<li><a href="#one">About Us</a></li>
 							<li><a href="#two">Services</a></li>
-							<li><a href="#work">My Work</a></li>
+							<li><a href="#artists">Artists</a></li>
+							<li><a href="#work">Gallery</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -66,6 +67,16 @@
 						<h2>Services</h2>
 					</header>
 					<p>Will think of a way to display services according to how much content needs to be added here.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+			<section id="artists" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Artists</h2>
+					</header>
+					<p>Will think of a way to display artists here.</p>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
