@@ -55,7 +55,7 @@
 					<header>
 						<h2>About us</h2>
 					</header>
-					<p>I'd recommend a brief, but <strong>catchy</strong> description here. Too much content might get monotonous. Background can stay white as now, or have an image/ different color (acc to logo maybe?)</p>
+					<p style="font-size:16px;">We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p style="font-size:16px;">Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p style="font-size:16px;">If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
