@@ -12,9 +12,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<script type="text/javascript" src="assets/js/modernizr.custom.28468.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
 
 	</head>
 	<body>
@@ -62,44 +62,49 @@
 				</div>
 			</section>
 
-		<!-- Services -->
-			<section id="two" class="main style2 right dark ">
-				<div class="content box style2">
-					<header>
-						<h2>Service 1</h2>
-					</header>
-					<p>Approx 50 words.</p>
+		<section id="two" class="main style1 dark fullscreen">
+				<div class="content container">
+					<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>Service 1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
 				</div>
-			</section>
-			<section id="two" class="main style2 left dark ">
-				<div class="content box style2">
-					<header>
-						<h2>Service 2</h2>
-					</header>
-					<p>Approx 50 words.</p>
+				<div class="da-slide">
+					<h2>Service 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
 				</div>
-			</section>
-			<section id="two" class="main style2 right dark ">
-				<div class="content box style2">
-					<header>
-						<h2>Service 3</h2>
-					</header>
-					<p>Approx 50 words.</p>
+				<div class="da-slide">
+					<h2>Service 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="da-img"><img src="images/1.png" alt="image01" /></div>
 				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+        </div>
+				</div>
 			</section>
 
-		<!-- Two -->
-			<section id="artists" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Artists</h2>
-					</header>
-					<p>Will think of a way to display artists here.</p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
-
+		
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
 				<div class="content container">
@@ -126,6 +131,51 @@
 
 				</div>
 			</section>
+
+			<!-- Two -->
+			<section id="one" class="main style1 dark fullscreen">
+				<div class="content container">
+					<div id="da-slider2" class="da-slider">
+				<div class="da-slide">
+					<h2>Artist 1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Artist 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Artist 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="da-img"><img src="images/1.png" alt="image01" /></div>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+        </div>
+				</div>
+			</section>
+
+
 
 		<!-- Contact -->
 			<section id="contact" class="main style3 secondary">
@@ -179,6 +229,23 @@
 			</footer>
 
 		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script type="text/javascript" src="assets/js/jquery.cslider.js"></script>
+			<script type="text/javascript">
+				$(function() {
+				
+					$('#da-slider').cslider();
+					
+				});
+				$(function() {
+				
+					$('#da-slider2').cslider();
+					
+				});
+			</script>
 			<script type="text/javascript">
 				$(function(){
 
@@ -198,10 +265,6 @@
 
 			    });
 			</script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
