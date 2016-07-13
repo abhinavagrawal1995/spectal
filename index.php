@@ -39,38 +39,53 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container 75%">
 					<header>
-						<h2>Hey.</h2>
+						<h2>One line here. Background will change every 5-10 seonds</h2>
 					</header>
-					<p><strong>We can have some text here with the background a little out of focus.
-					Or just have a STRONG image with no text.</strong></p>
+					
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
 				</div>
 			</section>
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
+		<!-- About -->
+			<section id="one" class="main style1 dark fullscreen">
+				<div class="content container 75%">
+					<header>
+						<h2>About Us</h2>
+					</header>
+					<strong><p>We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p>Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p>If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p></strong>
+				</div>
+			</section>
+
+		<!-- Services -->
+			<section id="two" class="main style2 right dark ">
 				<div class="content box style2">
 					<header>
-						<h2>About us</h2>
+						<h2>Service 1</h2>
 					</header>
-					<p style="font-size:16px;">We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p style="font-size:16px;">Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p style="font-size:16px;">If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p>
+					<p>Approx 50 words.</p>
+				</div>
+			</section>
+			<section id="two" class="main style2 left dark ">
+				<div class="content box style2">
+					<header>
+						<h2>Service 2</h2>
+					</header>
+					<p>Approx 50 words.</p>
+				</div>
+			</section>
+			<section id="two" class="main style2 right dark ">
+				<div class="content box style2">
+					<header>
+						<h2>Service 3</h2>
+					</header>
+					<p>Approx 50 words.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Services</h2>
-					</header>
-					<p>Will think of a way to display services according to how much content needs to be added here.</p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
-
 			<section id="artists" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
