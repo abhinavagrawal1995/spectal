@@ -23,7 +23,7 @@
 			<header id="header">
 
 				<!-- Logo -->
-					<h1 id="logo">Spectal Talent Management</a></h1>
+					<h1 id="logo"><div style="width: 100%;height: auto;"><img src="images/logo.png"></div></h1>
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -39,11 +39,13 @@
 
 			</header>
 
+
 		<!-- Intro -->
 			<section id="intro" class="main style1 dark fullscreen">
+
 				<div class="content container 75%">
 					<header>
-						<h2>One line here. Background will change every 5-10 seonds</h2>
+						<h2>One line here.</h2>
 					</header>
 					
 					<footer>
