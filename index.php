@@ -12,6 +12,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
+
 	</head>
 	<body>
 
@@ -19,7 +23,7 @@
 			<header id="header">
 
 				<!-- Logo -->
-					<h1 id="logo">Spectal Talent Management</h1>
+					<h1 id="logo">Spectal Talent Management</a></h1>
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -50,7 +54,7 @@
 
 		<!-- About -->
 			<section id="one" class="main style1 dark fullscreen">
-				<div class="content container 75%">
+				<div class="content container">
 					<header>
 						<h2>About Us</h2>
 					</header>
@@ -175,6 +179,25 @@
 			</footer>
 
 		<!-- Scripts -->
+			<script type="text/javascript">
+				$(function(){
+
+			        $("#logo").mouseenter(function() {
+			             	$("#logo").css({
+			             	                transition : 'color 1s ease-in-out',
+			             	                "color": "green"
+			             	            });
+			             });
+
+			        $("#logo").mouseout(function() {
+			             	$("#logo").css({
+			             	                transition : 'color 1s ease-in-out',
+			             	                "color": "red"
+			             	            });  
+			            });
+
+			    });
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
