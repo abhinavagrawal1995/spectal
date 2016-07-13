@@ -135,7 +135,7 @@
 			<!-- Two -->
 			<section id="one" class="main style1 dark fullscreen">
 				<div class="content container">
-					<div id="da-slider2" class="da-slider">
+					<div id="da-slider2" class="da-slider content container">
 				<div class="da-slide">
 					<h2>Artist 1</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
