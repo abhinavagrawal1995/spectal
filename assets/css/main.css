@@ -2819,8 +2819,8 @@
 		top: 0;
 		width: 100%;
 		background: #fff;
-		background: rgba(255, 255, 255, 0.0);
-		height: 3em;
+		background: rgba(255, 255, 255, 0.95);
+		height: 3.5em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
@@ -3388,7 +3388,7 @@
 		/* Header */
 
 			#header {
-				height: 2.5em;
+				height: 4em;
 				line-height: 2.5em;
 			}
 
