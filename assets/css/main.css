@@ -2873,7 +2873,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/home2.jpg");
+		background: url("images/overlay.png"), url("../../images/home2.jpg") no-repeat center center fixed;
 		/*background-size: 256px 256px, cover;*/
 		height:100vh;
 		margin-top: -3em;

@@ -250,7 +250,7 @@
 			<script type="text/javascript">
 				var imgSrcs = ["images/home1.jpg", "images/home2.jpg", "images/home3.jpg"];
 				setInterval(function() {
-				    $("#intro").css("background", "url(" + imgSrcs[imgSrcs.push(imgSrcs.shift())-1] + ")");
+				    $("#intro").css("background", "url(" + imgSrcs[imgSrcs.push(imgSrcs.shift())-1] + ")no-repeat center center fixed");
 				    $("#intro").css("background-size", "cover");
 				    
 				}, 6000);
