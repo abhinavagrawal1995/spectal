@@ -31,8 +31,8 @@
 							<li><a href="#intro">Intro</a></li>
 							<li><a href="#about">About Us</a></li>
 							<li><a href="#services">Services</a></li>
-							<li><a href="#work">Gallery</a></li>
 							<li><a href="#artists">Artists</a></li>
+							<li><a href="#work">Gallery</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -106,7 +106,49 @@
 				</div>
 			</section>
 
-		
+					<!-- Two -->
+					<section id="artists" class="main style1 dark fullscreen">
+						<div class="content container">
+							<div id="da-slider2" class="da-slider content container">
+						<div class="da-slide">
+							<h2>Artist 1</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="da-img"><img src="images/2.png" alt="image01" /></div>
+						</div>
+						<div class="da-slide">
+							<h2>Artist 2</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="da-img"><img src="images/3.png" alt="image01" /></div>
+						</div>
+						<div class="da-slide">
+							<h2>Artist 3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="da-img"><img src="images/1.png" alt="image01" /></div>
+						</div>
+						<nav class="da-arrows">
+							<span class="da-arrows-prev"></span>
+							<span class="da-arrows-next"></span>
+						</nav>
+					</div>
+		        </div>
+						</div>
+					</section>
+
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
 				<div class="content container">
@@ -134,49 +176,7 @@
 				</div>
 			</section>
 
-			<!-- Two -->
-			<section id="artists" class="main style1 dark fullscreen">
-				<div class="content container">
-					<div id="da-slider2" class="da-slider content container">
-				<div class="da-slide">
-					<h2>Artist 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
-				</div>
-				<div class="da-slide">
-					<h2>Artist 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
-				</div>
-				<div class="da-slide">
-					<h2>Artist 3</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<div class="da-img"><img src="images/1.png" alt="image01" /></div>
-				</div>
-				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>
-				</nav>
-			</div>
-        </div>
-				</div>
-			</section>
-
+			
 
 
 		<!-- Contact -->
