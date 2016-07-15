@@ -245,7 +245,7 @@
 					delay: 7000,
 				    timer: false,
 				    shuffle: true,
-				    transition: 'blur',
+				    transition: 'zoomOut',
 				    transitionDuration: 1000,
 				    slides: [
 				        { src: "images/home1.jpg" },
