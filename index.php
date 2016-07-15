@@ -251,7 +251,8 @@
 				var imgSrcs = ["images/home1.jpg", "images/home2.jpg", "images/home3.jpg"];
 				setInterval(function() {
 				    $("#intro").css("background", "url(" + imgSrcs[imgSrcs.push(imgSrcs.shift())-1] + ")");
-				    console.log($("#intro"));
+				    $("#intro").css("background-size", "cover");
+				    
 				}, 6000);
 			</script>
 			<script type="text/javascript">
