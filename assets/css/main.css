@@ -2898,7 +2898,7 @@
 		/*background-size: 256px 256px, cover;*/
 		height:100vh;
 		margin-top: -3em;
-		animation: example 15s ease infinite;
+		animation: example 15s infinite;
 	}
 
 	#one {

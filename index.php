@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<script type="text/javascript" src="assets/js/modernizr.custom.28468.js"></script>
 		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
+		<link href='assets/css/hover.css' rel='stylesheet' type='text/css'>
 		
 
 	</head>
@@ -27,14 +28,14 @@
 					<h1 id="logo"><div style="width: 100%;height: auto;"><img src="images/logo.png"></div></h1>
 
 				<!-- Nav -->
-					<nav id="nav">
+					<nav id="nav" >
 						<ul>
-							<li><a href="#intro">Intro</a></li>
-							<li><a href="#about">About Us</a></li>
-							<li><a href="#services">Services</a></li>
-							<li><a href="#artists">Artists</a></li>
-							<li><a href="#work">Gallery</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#intro" class="hvr-float-shadow">Intro</a></li>
+							<li><a href="#about" class="hvr-float-shadow">About Us</a></li>
+							<li><a href="#services" class="hvr-float-shadow">Services</a></li>
+							<li><a href="#artists" class="hvr-float-shadow">Artists</a></li>
+							<li><a href="#work" class="hvr-float-shadow">Gallery</a></li>
+							<li><a href="#contact" class="hvr-float-shadow">Contact</a></li>
 						</ul>
 					</nav>
 
