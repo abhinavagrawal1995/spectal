@@ -14,7 +14,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<script type="text/javascript" src="assets/js/modernizr.custom.28468.js"></script>
-		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
 
 	</head>
 	<body>
@@ -29,10 +29,10 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro">Intro</a></li>
-							<li><a href="#one">About Us</a></li>
-							<li><a href="#two">Services</a></li>
-							<li><a href="#artists">Artists</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#services">Services</a></li>
 							<li><a href="#work">Gallery</a></li>
+							<li><a href="#artists">Artists</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -49,7 +49,7 @@
 					</header>
 					
 					<footer>
-						<a href="#one" class="button style2 down">More</a>
+						<a href="#about" class="button style2 down">More</a>
 					</footer>
 				</div>
 			</section>
@@ -246,6 +246,13 @@
 					$('#da-slider2').cslider();
 					
 				});
+			</script>
+			<script type="text/javascript">
+				var imgSrcs = ["images/home1.jpg", "images/home2.jpg", "images/home3.jpg"];
+				setInterval(function() {
+				    $("#intro").css("background", "url(" + imgSrcs[imgSrcs.push(imgSrcs.shift())-1] + ")");
+				    console.log($("#intro"));
+				}, 6000);
 			</script>
 			<script type="text/javascript">
 				$(function(){
