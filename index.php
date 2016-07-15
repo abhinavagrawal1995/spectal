@@ -16,6 +16,7 @@
 		<script type="text/javascript" src="assets/js/modernizr.custom.28468.js"></script>
 		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
 		<link href='assets/css/hover.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/css/vegas.css">
 		
 
 	</head>
@@ -43,8 +44,8 @@
 
 
 		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-
+			<section id="vegass">
+				<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container 75%">
 					<header>
 						<h2>One line here.</h2>
@@ -54,6 +55,7 @@
 						<a href="#about" class="button style2 down">More</a>
 					</footer>
 				</div>
+				</section>
 			</section>
 
 		<!-- About -->
@@ -233,10 +235,26 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/vegas.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script type="text/javascript" src="assets/js/jquery.cslider.js"></script>
+			<script type="text/javascript">
+				$("#vegass").vegas({
+					delay: 7000,
+				    timer: false,
+				    shuffle: true,
+				    transition: 'blur',
+				    transitionDuration: 1000,
+				    slides: [
+				        { src: "images/home1.jpg" },
+				        { src: "images/home2.jpg" },
+				        { src: "images/home3.jpg" },
+				        { src: "images/home4.jpg" }
+				    ]
+				});
+			</script>
 			<script type="text/javascript">
 				$(function() {
 				

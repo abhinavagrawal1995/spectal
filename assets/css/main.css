@@ -2871,35 +2871,42 @@
 				}
 
 /* Intro */
-		@keyframes example {
+		/*@keyframes example {
 		    0% {
-		    		background: url("../../images/home2.jpg") no-repeat center center fixed;
+		    		background-image: url("../../images/home2.jpg");
+
 					background-size: cover;
 				}
 			25% {
-		    		background: url("../../images/home3.jpg") no-repeat center center fixed;
+		    		background-image: url("../../images/home3.jpg");
 					background-size: cover;
 				}
 			50% {
-		    		background: url("../../images/home1.jpg") no-repeat center center fixed;
+		    		background-image: url("../../images/home1.jpg");
 					background-size: cover;
 				}
 			75% {
-		    		background: url("../../images/home4.jpg") no-repeat center center fixed;
+		    		background-image: url("../../images/home4.jpg");
 					background-size: cover;
 				}
 			100% {
-		    		background: url("../../images/home2.jpg") no-repeat center center fixed;
+		    		background-image: url("../../images/home2.jpg");
 					background-size: cover;
 				}
-		}
+		}*/
+	#vegass{
+		margin-bottom:0;
+		height:100vh;
+		margin-top: -3em;
+	}
 	#intro {
 		
 		/*background-size: 256px 256px, cover;*/
-		height:100vh;
-		margin-top: -3em;
-		animation: example 15s infinite;
-		-webkit-transform:translate3d(0,0,0);
+		height:100%;
+		
+		background:no-repeat center center fixed;
+		/*background-image: url("../../images/home2.jpg");*/
+		/*animation: example 15s infinite;*/
 	}
 
 	#one {
