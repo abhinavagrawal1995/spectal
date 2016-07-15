@@ -2968,7 +2968,6 @@
 	#contact {
 		padding-bottom: 0;
 		overflow: hidden;
-		height:100vh;
 		background: url("images/overlay.png"), url("../../images/contact.jpg");
 		background-size: cover;
 	}
