@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<script type="text/javascript" src="assets/js/modernizr.custom.28468.js"></script>
 		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
+		
 
 	</head>
 	<body>
@@ -247,14 +248,14 @@
 					
 				});
 			</script>
-			<script type="text/javascript">
+			<!-- <script type="text/javascript">
 				var imgSrcs = ["images/home1.jpg", "images/home2.jpg", "images/home3.jpg"];
 				setInterval(function() {
 				    $("#intro").css("background", "url(" + imgSrcs[imgSrcs.push(imgSrcs.shift())-1] + ")no-repeat center center fixed");
 				    $("#intro").css("background-size", "cover");
 				    
 				}, 6000);
-			</script>
+			</script> -->
 			<script type="text/javascript">
 				$(function(){
 
