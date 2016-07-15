@@ -55,7 +55,7 @@
 			</section>
 
 		<!-- About -->
-			<section id="one" class="main style1 dark fullscreen">
+			<section id="about" class="main style1 dark fullscreen">
 				<div class="content container">
 					<header>
 						<h2>About Us</h2>
@@ -64,7 +64,7 @@
 				</div>
 			</section>
 
-		<section id="two" class="main style1 dark fullscreen">
+		<section id="services" class="main style1 dark fullscreen">
 				<div class="content container">
 					<div id="da-slider" class="da-slider">
 				<div class="da-slide">
@@ -112,7 +112,7 @@
 				<div class="content container">
 					<header>
 						<h2>Gallery</h2>
-						<p>This is another way I came up with. The large images auto resize to fit in the screen when clicked, so it'll be easily viewed on any device. We can also go back to the horizontal scrolling gallery if there are a lot of images.</p>
+						<!--<p>This is another way I came up with. The large images auto resize to fit in the screen when clicked, so it'll be easily viewed on any device. We can also go back to the horizontal scrolling gallery if there are a lot of images.</p>-->
 					</header>
 
 					<!-- Lightbox Gallery  -->
@@ -135,7 +135,7 @@
 			</section>
 
 			<!-- Two -->
-			<section id="one" class="main style1 dark fullscreen">
+			<section id="artists" class="main style1 dark fullscreen">
 				<div class="content container">
 					<div id="da-slider2" class="da-slider content container">
 				<div class="da-slide">
@@ -184,7 +184,6 @@
 				<div class="content container">
 					<header>
 						<h2>Say Hello.</h2>
-						<p>Contact us</p>
 					</header>
 					<div class="box container 75%">
 
