@@ -31,7 +31,7 @@
 				<!-- Nav -->
 					<nav id="nav" >
 						<ul>
-							<li><a href="#intro" class="hvr-float-shadow">Intro</a></li>
+							<li><a href="#intro" class="hvr-glow">Intro</a></li>
 							<li><a href="#about" class="hvr-float-shadow">About Us</a></li>
 							<li><a href="#services" class="hvr-float-shadow">Services</a></li>
 							<li><a href="#artists" class="hvr-float-shadow">Artists</a></li>
@@ -242,7 +242,7 @@
 			<script type="text/javascript" src="assets/js/jquery.cslider.js"></script>
 			<script type="text/javascript">
 				$("#vegass").vegas({
-					delay: 7000,
+					delay: 5000,
 				    timer: false,
 				    shuffle: true,
 				    transition: 'zoomOut',
