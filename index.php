@@ -31,7 +31,7 @@
 				<!-- Nav -->
 					<nav id="nav" >
 						<ul>
-							<li><a href="#intro" class="hvr-glow">Intro</a></li>
+							<li><a href="#intro" class="hvr-float-shadow">Intro</a></li>
 							<li><a href="#about" class="hvr-float-shadow">About Us</a></li>
 							<li><a href="#services" class="hvr-float-shadow">Services</a></li>
 							<li><a href="#artists" class="hvr-float-shadow">Artists</a></li>
@@ -72,38 +72,18 @@
 				<div class="content container">
 					<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<h2>Service 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
+					<h2>Talent Representation</h2>
+
+					<p><br>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
+					<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
 				</div>
 				<div class="da-slide">
-					<h2>Service 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
-				</div>
-				<div class="da-slide">
-					<h2>Service 3</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<div class="da-img"><img src="images/1.png" alt="image01" /></div>
+					<h2>Brand Association and Integration</h2>
+					<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
 				</div>
 				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>
+					<span class="da-arrows-prev" id="services-prev"></span>
+					<span class="da-arrows-next" id="services-next"></span>
 				</nav>
 			</div>
         </div>
@@ -122,7 +102,6 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<div class="da-img"><img src="images/2.png" alt="image01" /></div>
 						</div>
 						<div class="da-slide">
 							<h2>Artist 2</h2>
@@ -132,21 +111,10 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<div class="da-img"><img src="images/3.png" alt="image01" /></div>
-						</div>
-						<div class="da-slide">
-							<h2>Artist 3</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<div class="da-img"><img src="images/1.png" alt="image01" /></div>
 						</div>
 						<nav class="da-arrows">
-							<span class="da-arrows-prev"></span>
-							<span class="da-arrows-next"></span>
+							<span class="da-arrows-prev" id="artist-prev"></span>
+							<span class="da-arrows-next" id="artist-next"></span>
 						</nav>
 					</div>
 		        </div>
@@ -250,8 +218,7 @@
 				    slides: [
 				        { src: "images/home1.jpg" },
 				        { src: "images/home2.jpg" },
-				        { src: "images/home3.jpg" },
-				        { src: "images/home4.jpg" }
+				        { src: "images/home3.jpg" }
 				    ]
 				});
 			</script>
@@ -267,14 +234,41 @@
 					
 				});
 			</script>
-			<!-- <script type="text/javascript">
-				var imgSrcs = ["images/home1.jpg", "images/home2.jpg", "images/home3.jpg"];
-				setInterval(function() {
-				    $("#intro").css("background", "url(" + imgSrcs[imgSrcs.push(imgSrcs.shift())-1] + ")no-repeat center center fixed");
-				    $("#intro").css("background-size", "cover");
-				    
-				}, 6000);
-			</script> -->
+			<script>
+				imgarr=['images/artist1.jpg','images/artist2.jpg'];
+				i=0;
+
+				$("#artist-prev").click(function(){ 
+					if(i==0)
+						i=imgarr.length;
+					i--;
+					$("#artists").css('background-image', 'url("'+imgarr[i]+'")');
+				});
+				$("#artist-next").click(function(){ 
+					i++;
+					if(i==imgarr.length)
+						i=0;
+					$("#artists").css('background-image', 'url("'+imgarr[i]+'")');
+				});
+			</script>
+			<script>
+				servarr=['images/service1.jpg','images/service2.jpg'];
+				j=0;
+
+				$("#services-prev").click(function(){ 
+					if(j==0)
+						j=servarr.length;
+					j--;
+					$("#services").css('background-image', 'url("'+servarr[j]+'")');
+				});
+				$("#services-next").click(function(){ 
+					j++;
+					if(j==servarr.length)
+						j=0;
+					$("#services").css('background-image', 'url("'+servarr[j]+'")');
+				});
+			</script>
+
 			<script type="text/javascript">
 				$(function(){
 
