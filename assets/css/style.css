@@ -1,7 +1,7 @@
 .da-slider{
 	width: 100%;
 	/*min-width: 520px;*/
-	height: 400px;
+	height: 500px;
 	position: relative;
 	margin: 30px auto;
 	overflow: hidden;
@@ -56,19 +56,19 @@
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-family: 'Economica', Arial, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-weight: 700;
 }
 .da-slide p{
 	width: 75%;
-	top: 155px;
+	top: 135px;
 	color: #fff;
 	font-size: 18px;
 	line-height: 26px;
-	height: 80px;
+	/*height: 80px;*/
 	overflow: hidden;
 	font-style: italic;
-	font-family: 'Economica', Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-style: italic;
 }

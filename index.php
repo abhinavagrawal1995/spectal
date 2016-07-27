@@ -17,6 +17,11 @@
 		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
 		<link href='assets/css/hover.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="assets/css/vegas.css">
+		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css??family=Lato:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 
@@ -46,7 +51,7 @@
 				<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container 75%">
 					<header>
-						<h2>One line here.</h2>
+						<h2>Ambition. Creation. Conviction.</h2>
 					</header>
 					
 					<footer>
@@ -72,11 +77,11 @@
 				<div class="da-slide">
 					<h2 style="font-size: 45px;">Talent Representation</h2>
 
-					<p><br>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
+					<p>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
 					<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
 				</div>
 				<div class="da-slide">
-					<h2 style="font-size: 45px;">Brand Association and Integration</h2>
+					<h2 style="font-size: 30px;">Brand Association and Integration</h2>
 					<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
 				</div>
 				<nav class="da-arrows">
@@ -93,13 +98,8 @@
 						<div class="content container">
 							<div id="da-slider2" class="da-slider content container">
 						<div class="da-slide">
-							<h2 style="font-size: 45px;">Artist 1</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<h2 style="font-size: 40px;">The Local Train</h2>
+							<p>The Local Train is redefining the genre of Hindi Rock with their edgy videos and contagious tracks. The band's first album Aaalas ka Pedh, released in fall 2015 became the highest selling independent album of the year. In the last season, the band catered to a strong demand of 50+ shows, at some of the most prestigious stages of the country.With approximately 2.5 million views (and still going strong) on YouTube, the band is currently working on their second album.</p>
 						</div>
 						<div class="da-slide">
 							<h2 style="font-size: 45px;">Artist 2</h2>
@@ -130,16 +130,16 @@
 					<!-- Lightbox Gallery  -->
 						<div class="container 75% gallery">
 							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="Reverberate." alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Illuminate." alt="" /></a></div>
 							</div>
 							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Lights. Stage. Magic." alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Reds, blues and other musical hues." alt="" /></a></div>
 							</div>
 							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Immersion." alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Levitate." alt="" /></a></div>
 							</div>
 						</div>
 
@@ -186,10 +186,8 @@
 					<ul class="actions">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
 					</ul>
 
 				<!-- Menu -->
