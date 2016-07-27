@@ -17,8 +17,6 @@
 		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
 		<link href='assets/css/hover.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="assets/css/vegas.css">
-		
-
 	</head>
 	<body>
 
@@ -72,13 +70,13 @@
 				<div class="content container">
 					<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<h2>Talent Representation</h2>
+					<h2 style="font-size: 45px;">Talent Representation</h2>
 
 					<p><br>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
 					<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
 				</div>
 				<div class="da-slide">
-					<h2>Brand Association and Integration</h2>
+					<h2 style="font-size: 45px;">Brand Association and Integration</h2>
 					<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
 				</div>
 				<nav class="da-arrows">
@@ -95,7 +93,7 @@
 						<div class="content container">
 							<div id="da-slider2" class="da-slider content container">
 						<div class="da-slide">
-							<h2>Artist 1</h2>
+							<h2 style="font-size: 45px;">Artist 1</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -104,7 +102,7 @@
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
 						<div class="da-slide">
-							<h2>Artist 2</h2>
+							<h2 style="font-size: 45px;">Artist 2</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
