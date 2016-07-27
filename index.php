@@ -24,7 +24,7 @@
 			<header id="header">
 
 				<!-- Logo -->
-					<h1 id="logo"><div style="width: 100%;height: auto;"><img src="images/logo.png"></div></h1>
+					<h1 id="logo"><div style="width: 100%;height: auto;"><img style="opacity: 0.4;" src="images/logo.png"></div></h1>
 
 				<!-- Nav -->
 					<nav id="nav" >
