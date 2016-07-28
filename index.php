@@ -22,6 +22,7 @@
 		<link href='https://fonts.googleapis.com/css??family=Lato:700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	</head>
 	<body>
 
@@ -67,7 +68,7 @@
 					<header>
 						<h2>About Us</h2>
 					</header>
-					<strong><p>We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p>Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p>If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p></strong>
+					<strong><p style="font-family: 'Lato', sans-serif;">We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p>Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p>If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p></strong>
 				</div>
 			</section>
 
@@ -75,13 +76,13 @@
 				<div class="content container">
 					<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<h2 style="font-size: 45px;">Talent Representation</h2>
+					<h2>Talent Representation</h2>
 
 					<p>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
 					<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
 				</div>
 				<div class="da-slide">
-					<h2 style="font-size: 30px;">Brand Association and Integration</h2>
+					<h2>Brand Association and Integration</h2>
 					<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
 				</div>
 				<nav class="da-arrows">
@@ -98,11 +99,11 @@
 						<div class="content container">
 							<div id="da-slider2" class="da-slider content container">
 						<div class="da-slide">
-							<h2 style="font-size: 40px;">The Local Train</h2>
+							<h2>The Local Train</h2>
 							<p>The Local Train is redefining the genre of Hindi Rock with their edgy videos and contagious tracks. The band's first album Aaalas ka Pedh, released in fall 2015 became the highest selling independent album of the year. In the last season, the band catered to a strong demand of 50+ shows, at some of the most prestigious stages of the country.With approximately 2.5 million views (and still going strong) on YouTube, the band is currently working on their second album.</p>
 						</div>
 						<div class="da-slide">
-							<h2 style="font-size: 45px;">Artist 2</h2>
+							<h2>Artist 2</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
