@@ -197,7 +197,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Spectal Talent Management</li><li>Developer: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
+						<li>&copy; Spectal Talent Management</li><li style="font-size: 0.6em;">Developer: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
 					</ul>
 
 			</footer>
