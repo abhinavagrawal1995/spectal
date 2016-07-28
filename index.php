@@ -12,6 +12,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<meta property="og:title" content="Spectal Management" />
+		<meta property="og:type" content="Website" />
+		<meta property="og:url" content="http://www.spectalmanagement.com" />
+		<meta property="og:description" content="Description Here" />
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<script type="text/javascript" src="assets/js/modernizr.custom.28468.js"></script>
 		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
@@ -19,7 +23,7 @@
 		<link rel="stylesheet" href="assets/css/vegas.css">
 		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css??family=Lato:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:700' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -186,7 +190,7 @@
 				<!-- Icons -->
 					<ul class="actions">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.facebook.com/Spectal-Management-1477596392547676/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
 					</ul>
