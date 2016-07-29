@@ -9,6 +9,9 @@ if($_POST['submit']){
 	//$headers = "From: abhinavagrawal.in";
 	if(mail($to,$subject,$txt,$headers)){
 		var_dump($txt);
+		var_dump($to);
+		var_dump($subject);
+		var_dump($headers);
 		die("done");
 	}
 	else{
