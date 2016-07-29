@@ -3,7 +3,8 @@ if($_POST['submit']){
 	//$to = "bookings@spectalmanagement.com";
 	$to="abhinavagrawal1995@gmail.com";
 	$subject = "New message from website";
-	$txt = "This is an automatically generated email from the contact us form on spectalmanagement.com\r\nSent by: " . $_POST['name'] . "\r\nMessage: " . $_POST['msg'];
+	//$txt = "This is an automatically generated email from the contact us form on spectalmanagement.com\r\nSent by: " . $_POST['name'] . "\r\nMessage: " . $_POST['msg'];
+	$txt="text";
 	$from = $_POST['email'];
 	$headers = "From: ". $from;
 	//$headers = "From: abhinavagrawal.in";
