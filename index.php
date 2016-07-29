@@ -13,9 +13,9 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<meta property="og:title" content="Spectal Management" />
-		<meta property="og:type" content="Website" />
+		<meta property="og:type" content="Talent Management" />
 		<meta property="og:url" content="http://www.spectalmanagement.com" />
-		<meta property="og:description" content="Description Here" />
+		<meta property="og:description" content="We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve. Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to. If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you." />
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<script type="text/javascript" src="assets/js/modernizr.custom.28468.js"></script>
 		<link href='assets/css/fonts/economica.css' rel='stylesheet' type='text/css'>
@@ -163,13 +163,13 @@
 					<div class="box container 75%">
 
 					<!-- Contact Form -->
-							<form method="post" action="#">
+							<form method="post" action="index.php">
 								<div class="row 50%">
-									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" required /></div>
+									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" required /></div>
 								</div>
 								<div class="row 50%">
-									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+									<div class="12u"><textarea name="msg" placeholder="Message" rows="6" required></textarea></div>
 								</div>
 								<div class="row">
 									<div class="12u">
@@ -296,3 +296,14 @@
 
 	</body>
 </html>
+
+<?php
+if($_POST['submit']){
+	$to = "bookings@spectalmanagement.com";
+	$subject = "New message from website";
+	$txt = "Name: " . $name . "\r\n" . $_POST['msg'];
+	$from = $_POST['email'];
+	$headers = "From: ". $from . "\r\n";
+	//mail($to,$subject,$txt,$headers);
+}
+?>
