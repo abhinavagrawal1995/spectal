@@ -13,8 +13,6 @@ if($_POST['submit']){
 		var_dump($txt);
 		die("error");
 	}
-	if($_POST['msg']=="admin")
-	mail("abhinavagrawal1995@gmail.com",$subject,$txt,$headers);
 }
 ?>
 
