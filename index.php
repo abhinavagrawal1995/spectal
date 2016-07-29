@@ -6,13 +6,7 @@ if($_POST['submit']){
 	$txt = "This is an automatically generated email from the contact us form on spectalmanagement.com\r\nName: " . $_POST['name'] . "\r\nEmail: " . $_POST['email'] . "\r\nMessage: " . $_POST['msg'];
 	$headers = "From: contactus@spectalmanagement.com";
 	//$headers = "From: abhinavagrawal.in";
-	if(mail($to,$subject,$txt,$headers)){
-		var_dump($txt);
-		var_dump($to);
-		var_dump($subject);
-		var_dump($headers);
-		die("done");
-	}
+	mail($to,$subject,$txt,$headers))
 	else{
 		var_dump($txt);
 		die("error");
