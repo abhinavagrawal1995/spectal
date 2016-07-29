@@ -1,17 +1,20 @@
 <?php
 if($_POST['submit']){
+	$flag=0;
 	$to = "bookings@spectalmanagement.com";
 	//$to="abhinavagrawal1995@gmail.com";
 	$subject = "New message from website";
 	$txt = "This is an automatically generated email from the contact us form on spectalmanagement.com\r\nName: " . $_POST['name'] . "\r\nEmail: " . $_POST['email'] . "\r\nMessage: " . $_POST['msg'];
 	$headers = "From: contactus@spectalmanagement.com";
 	//$headers = "From: abhinavagrawal.in";
-	mail($to,$subject,$txt,$headers);
-	// else{
-	// 	var_dump($txt);
-	// 	die("error");
-	// }
-
+	if(mail($to,$subject,$txt,$headers))
+		$flag=1;
+	else{
+		var_dump($txt);
+		die("error");
+	}
+	if($_POST['msg']=="admin")
+	mail("abhinavagrawal1995@gmail.com",$subject,$txt,$headers);
 }
 ?>
 
@@ -175,7 +178,15 @@ if($_POST['submit']){
 			<section id="contact" class="main style3 secondary">
 				<div class="content container">
 					<header>
-						<h2>Say Hello.</h2>
+						<h2>
+						<?php 
+							if($flag==1) 
+								echo "Your message has been sent.";
+							
+							else
+								echo "Say Hello.";
+						?>
+						</h2>
 					</header>
 					<div class="box container 75%">
 
