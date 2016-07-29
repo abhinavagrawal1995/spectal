@@ -1,3 +1,16 @@
+<?php
+if($_POST['submit']){
+	//$to = "bookings@spectalmanagement.com";
+	$to="abhinavagrawal1995@gmail.com";
+	$subject = "New message from website";
+	$txt = "Name: " . $name . "\r\n" . $_POST['msg'];
+	$from = $_POST['email'];
+	$headers = "From: ". $from . "\r\n";
+	if(mail($to,$subject,$txt,$headers);)
+		die('yo');
+}
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Spectal Talent Management
@@ -297,14 +310,3 @@
 	</body>
 </html>
 
-<?php
-if($_POST['submit']){
-	//$to = "bookings@spectalmanagement.com";
-	$to="abhinavagrawal1995@gmail.com";
-	$subject = "New message from website";
-	$txt = "Name: " . $name . "\r\n" . $_POST['msg'];
-	$from = $_POST['email'];
-	$headers = "From: ". $from . "\r\n";
-	//mail($to,$subject,$txt,$headers);
-}
-?>
