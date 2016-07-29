@@ -12,7 +12,7 @@ if($_POST['submit']){
 		die("done");
 	}
 	else{
-		var_dump($_POST);
+		var_dump($txt);
 		die("error");
 	}
 
