@@ -191,7 +191,7 @@ if($_POST['submit']){
 					<div class="box container 75%">
 
 					<!-- Contact Form -->
-							<form method="post" action="index.php">
+							<form method="post" action="index.php#contact">
 								<div class="row 50%">
 									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" required /></div>
 									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" required /></div>
