@@ -5,9 +5,17 @@ if($_POST['submit']){
 	$subject = "New message from website";
 	$txt = "Name: " . $name . "\r\n" . $_POST['msg'];
 	$from = $_POST['email'];
-	$headers = "From: ". $from . "\r\n";
-	if(mail($to,$subject,$txt,$headers))
-		die("asd");
+	//$headers = "From: ". $from
+	$headers = "From: abhinavagrawal.in";
+	if(mail($to,$subject,$txt,$headers)){
+		var_dump($_POST);
+		die("done");
+	}
+	else{
+		var_dump($_POST);
+		die("error");
+	}
+
 }
 ?>
 
