@@ -3,10 +3,10 @@ if($_POST['submit']){
 	//$to = "bookings@spectalmanagement.com";
 	$to="abhinavagrawal1995@gmail.com";
 	$subject = "New message from website";
-	$txt = "Name: " . $name . "\r\n" . $_POST['msg'];
+	$txt = "Name: " . $_POST['name'] . "\r\n" . $_POST['msg'];
 	$from = $_POST['email'];
-	//$headers = "From: ". $from
-	$headers = "From: abhinavagrawal.in";
+	$headers = "From: ". $from;
+	//$headers = "From: abhinavagrawal.in";
 	if(mail($to,$subject,$txt,$headers)){
 		var_dump($_POST);
 		die("done");
