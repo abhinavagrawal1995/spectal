@@ -6,8 +6,8 @@ if($_POST['submit']){
 	$txt = "Name: " . $name . "\r\n" . $_POST['msg'];
 	$from = $_POST['email'];
 	$headers = "From: ". $from . "\r\n";
-	if(mail($to,$subject,$txt,$headers);)
-		die('yo');
+	if(mail($to,$subject,$txt,$headers))
+		die("asd");
 }
 ?>
 
@@ -187,7 +187,7 @@ if($_POST['submit']){
 								<div class="row">
 									<div class="12u">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="submit" value="Send Message" name="submit" /></li>
 										</ul>
 									</div>
 								</div>
