@@ -99,59 +99,50 @@ if($_POST['submit']){
 			</section>
 
 		<section id="services" class="main style1 dark fullscreen">
-				<div class="content container">
-					<header>
-						<h2>Services</h2>
-					</header>
-					<div id="da-slider" class="da-slider">
-						<div class="da-slide">
-							<h2 style="font-size: 1.5em;">Talent Representation</h2>
+			<h2>Services</h2>
+			<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2 style="font-size: 1.5em;">Talent Representation</h2>
 
-							<p>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
-							<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
-						</div>
-						<div class="da-slide">
-							<h2 style="font-size: 1.2em;">Brand Association and Integration</h2>
-							<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
-						</div>
-						<nav class="da-arrows">
-							<span class="da-arrows-prev" id="services-prev"></span>
-							<span class="da-arrows-next" id="services-next"></span>
-						</nav>
-					</div>
-        		</div>
+					<p>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
+					<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
+				</div>
+				<div class="da-slide">
+					<h2 style="font-size: 1.2em;">Brand Association and Integration</h2>
+					<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev" id="services-prev"></span>
+					<span class="da-arrows-next" id="services-next"></span>
+				</nav>
+			</div>
 			</section>
 
 			<!-- Two -->
 			<section id="artists" class="main style1 dark fullscreen">
-				<div class="content container">
-					<header>
-						<h2>Artists</h2>
-					</header>
-				
-					<div id="da-slider2" class="da-slider content container">
-						<div class="da-slide">
-							<h2>The Local Train</h2>
-							<p>The Local Train is redefining the genre of Hindi Rock with their edgy videos and contagious tracks. The band's first album Aaalas ka Pedh, released in fall 2015 became the highest selling independent album of the year. In the last season, the band catered to a strong demand of 50+ shows, at some of the most prestigious stages of the country.With approximately 2.5 million views (and still going strong) on YouTube, the band is currently working on their second album.</p>
-						</div>
-						<!--Uncomment here to add 2nd artist (remove this line)
-						<div class="da-slide">
-							<h2>Artist 2</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						
-						<nav class="da-arrows">
-							<span class="da-arrows-prev" id="artist-prev"></span>
-							<span class="da-arrows-next" id="artist-next"></span>
-						</nav>
-						and remove this line-->
+				<h2>Artists</h2>
+				<div id="da-slider2" class="da-slider content container">
+					<div class="da-slide">
+						<h2>The Local Train</h2>
+						<p>The Local Train is redefining the genre of Hindi Rock with their edgy videos and contagious tracks. The band's first album Aaalas ka Pedh, released in fall 2015 became the highest selling independent album of the year. In the last season, the band catered to a strong demand of 50+ shows, at some of the most prestigious stages of the country.With approximately 2.5 million views (and still going strong) on YouTube, the band is currently working on their second album.</p>
 					</div>
-		        </div>
+					<!--Uncomment here to add 2nd artist (remove this line)
+					<div class="da-slide">
+						<h2>Artist 2</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					
+					<nav class="da-arrows">
+						<span class="da-arrows-prev" id="artist-prev"></span>
+						<span class="da-arrows-next" id="artist-next"></span>
+					</nav>
+					and remove this line-->
+				</div>
 			</section>
 
 		<!-- Work -->
