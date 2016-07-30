@@ -138,11 +138,12 @@ if($_POST['submit']){
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
-						and remove this line-->
+						
 						<nav class="da-arrows">
 							<span class="da-arrows-prev" id="artist-prev"></span>
 							<span class="da-arrows-next" id="artist-next"></span>
 						</nav>
+						and remove this line-->
 					</div>
 		        </div>
 						</div>
@@ -251,7 +252,9 @@ if($_POST['submit']){
 				    slides: [
 				        { src: "images/home1.jpg" },
 				        { src: "images/home2.jpg" },
-				        { src: "images/home3.jpg" }
+				        { src: "images/home3.jpg" },
+				        { src: "images/home4.jpg" },
+				        { src: "images/home5.jpg" }
 				    ]
 				});
 			</script>
@@ -268,7 +271,7 @@ if($_POST['submit']){
 				});
 			</script>
 			<script>
-				imgarr=['images/artist1.jpg','images/artist2.jpg'];
+				imgarr=['images/artist1.jpg'];
 				i=0;
 
 				$("#artist-prev").click(function(){ 

@@ -2950,6 +2950,7 @@
 	}
 	#work h2{
 		font-size: 3em;
+
 	}
 
 /* Two */
@@ -3006,6 +3007,9 @@
 		overflow: hidden;
 		background-size: cover;
 		font-family: 'Lato', sans-serif;
+	}
+	#contact h2{
+		color:#fff;
 	}
 
 		#contact .box {
