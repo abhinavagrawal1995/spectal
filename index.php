@@ -94,7 +94,7 @@ if($_POST['submit']){
 					<header>
 						<h2>About Us</h2>
 					</header>
-					<strong><p style="font-family: 'Lato', sans-serif;">We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p>Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p>If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p></strong>
+					<strong><p>We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p>Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p>If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p></strong>
 				</div>
 			</section>
 

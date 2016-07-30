@@ -2925,6 +2925,9 @@
 		overflow:hidden;
 		height:auto;
 	}
+	#about p{
+		font-family: 'Lato', sans-serif;
+	}
 	#services {
 		background: url("images/overlay.png"), url("../../images/service1.jpg");
 		background-size: cover;
