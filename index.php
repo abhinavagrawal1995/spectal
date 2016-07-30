@@ -1,4 +1,5 @@
 <?php
+//*************************Do not interfere this part***********************************************************
 if($_POST['submit']){
 	$flag=0;
 	$to = "bookings@spectalmanagement.com";
@@ -14,6 +15,7 @@ if($_POST['submit']){
 		die("error");
 	}
 }
+//*************************************************************************************************************
 ?>
 
 <!DOCTYPE HTML>
@@ -52,7 +54,9 @@ if($_POST['submit']){
 			<header id="header">
 
 				<!-- Logo -->
-					<h1 id="logo"><div style="width: 100%;height: auto;"><img style="opacity: 0.4;" src="images/logo.png"></div></h1>
+					<h1 id="logo"><div style="width: 100%;height: auto;">
+					<img style="opacity: 0.4;" src="images/logo.png">
+					</div></h1>
 
 				<!-- Nav -->
 					<nav id="nav" >
@@ -124,6 +128,7 @@ if($_POST['submit']){
 							<h2>The Local Train</h2>
 							<p>The Local Train is redefining the genre of Hindi Rock with their edgy videos and contagious tracks. The band's first album Aaalas ka Pedh, released in fall 2015 became the highest selling independent album of the year. In the last season, the band catered to a strong demand of 50+ shows, at some of the most prestigious stages of the country.With approximately 2.5 million views (and still going strong) on YouTube, the band is currently working on their second album.</p>
 						</div>
+						<!--Uncomment here to add 2nd artist (remove this line)
 						<div class="da-slide">
 							<h2>Artist 2</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -133,6 +138,7 @@ if($_POST['submit']){
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
+						and remove this line-->
 						<nav class="da-arrows">
 							<span class="da-arrows-prev" id="artist-prev"></span>
 							<span class="da-arrows-next" id="artist-next"></span>
