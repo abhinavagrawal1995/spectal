@@ -2930,7 +2930,7 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 		height: 100vh;
-		overflow-y: auto;
+		overflow-y: hidden;
 	}
 	#artists {
 		background: url("images/overlay.png"), url("../../images/artist1.jpg");
@@ -2938,7 +2938,7 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 		height: 100vh;
-    	overflow-y: auto;
+    	overflow-y: hidden;
 	}
 	#work {
 		background: url("images/overlay.png"), url("../../images/gallery_back.jpg");
