@@ -100,30 +100,36 @@ if($_POST['submit']){
 
 		<section id="services" class="main style1 dark fullscreen">
 				<div class="content container">
+					<header>
+						<h2>Services</h2>
+					</header>
 					<div id="da-slider" class="da-slider">
-				<div class="da-slide">
-					<h2>Talent Representation</h2>
+						<div class="da-slide">
+							<h2 style="font-size: 1.5em;">Talent Representation</h2>
 
-					<p>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
-					<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
-				</div>
-				<div class="da-slide">
-					<h2>Brand Association and Integration</h2>
-					<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
-				</div>
-				<nav class="da-arrows">
-					<span class="da-arrows-prev" id="services-prev"></span>
-					<span class="da-arrows-next" id="services-next"></span>
-				</nav>
-			</div>
-        </div>
-				</div>
+							<p>We manage a diversified pool of talent to act as the perfect guiding agent for artists. From running shows to ensuring media coverage across various platforms, Spectal, as an artist management firm, makes itself responsible for the sound growth of the artists’ career.</p>
+							<!--<div class="da-img"><img src="images/2.png" alt="image01" /></div>-->
+						</div>
+						<div class="da-slide">
+							<h2 style="font-size: 1.2em;">Brand Association and Integration</h2>
+							<p>Our understanding of a varied set of clientele provides us with a unique ability to associate with brands - ones that aspire to hit a certain audience. Through orchestrating befitting relations, we give them the right platforms, ranging from festivals to clubs and closed performances. Not only do we create such associations, we curate them to expand opportunities and explore new avenues.</p>
+						</div>
+						<nav class="da-arrows">
+							<span class="da-arrows-prev" id="services-prev"></span>
+							<span class="da-arrows-next" id="services-next"></span>
+						</nav>
+					</div>
+        		</div>
 			</section>
 
-					<!-- Two -->
-					<section id="artists" class="main style1 dark fullscreen">
-						<div class="content container">
-							<div id="da-slider2" class="da-slider content container">
+			<!-- Two -->
+			<section id="artists" class="main style1 dark fullscreen">
+				<div class="content container">
+					<header>
+						<h2>Artists</h2>
+					</header>
+				
+					<div id="da-slider2" class="da-slider content container">
 						<div class="da-slide">
 							<h2>The Local Train</h2>
 							<p>The Local Train is redefining the genre of Hindi Rock with their edgy videos and contagious tracks. The band's first album Aaalas ka Pedh, released in fall 2015 became the highest selling independent album of the year. In the last season, the band catered to a strong demand of 50+ shows, at some of the most prestigious stages of the country.With approximately 2.5 million views (and still going strong) on YouTube, the band is currently working on their second album.</p>
@@ -146,8 +152,7 @@ if($_POST['submit']){
 						and remove this line-->
 					</div>
 		        </div>
-						</div>
-					</section>
+			</section>
 
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
