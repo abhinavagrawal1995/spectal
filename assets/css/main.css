@@ -1842,7 +1842,7 @@
 
 	h2 {
 		font-size: 2.25em;
-		letter-spacing: -2px;
+		letter-spacing: -1px;
 		line-height: 1.25em;
 		font-family: 'Fira Sans', sans-serif;
 	}
@@ -2281,7 +2281,7 @@
 			.main.style1 h2 {
 				font-size: 2.5em;
 				line-height: 1em;
-				letter-spacing: -4px;
+				letter-spacing: -1px;
 			}
 
 			.main.style1:before {
@@ -3421,8 +3421,8 @@
 			}
 
 				.main.style1 h2 {
-					font-size: 1.5em;
-					letter-spacing: -2px;
+					font-size: 3em;
+					letter-spacing: -1px;
 					word-spacing: .05em;
 				}
 

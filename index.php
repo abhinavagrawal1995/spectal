@@ -76,7 +76,7 @@ if($_POST['submit']){
 		<!-- Intro -->
 			<section id="vegass">
 				<section id="intro" class="main style1 dark fullscreen">
-				<div class="content container 75%">
+				<div class="content container">
 					<header>
 						<h2>Ambition. Creation. Conviction.</h2>
 					</header>
