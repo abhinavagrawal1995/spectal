@@ -123,7 +123,7 @@ if($_POST['submit']){
 				<h2>Artists</h2>
 				<div id="da-slider2" class="da-slider content container">
 					<div class="da-slide">
-						<h2 style="font-size: 1.3em;">The Local Train</h2>
+						<h2 style="font-size: 1.5em;">The Local Train</h2>
 						<p>The Local Train is redefining the genre of Hindi Rock with their edgy videos and contagious tracks. The band's first album Aaalas ka Pedh, released in fall 2015 became the highest selling independent album of the year. In the last season, the band catered to a strong demand of 50+ shows, at some of the most prestigious stages of the country.With approximately 2.5 million views (and still going strong) on YouTube, the band is currently working on their second album.</p>
 					</div>
 					<!--Uncomment here to add 2nd artist (remove this line)
