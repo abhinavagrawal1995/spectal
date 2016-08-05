@@ -1444,8 +1444,7 @@
 		.\31 2u\28mobile\29, .\31 2u\24\28mobile\29 {
 			width: 100%;
 			clear: none;
-			/*margin-left: 0;*/
-			margin: auto;
+			margin-left: 0;
 		}
 
 		.\31 1u\28mobile\29, .\31 1u\24\28mobile\29 {
@@ -1916,13 +1915,16 @@
 		margin-bottom: 3em;
 	}
 
-	section > :last-child,
+	
 	article > :last-child,
 	section > .content > :last-child,
 	article > .content > :last-child,
 	section:last-child,
 	article:last-child {
 		margin-bottom: 0;
+	}
+	section > :last-child{
+		margin-bottom: 0.5em;
 	}
 
 	.row > section, .row > article {
@@ -2067,7 +2069,7 @@
 		width: 100%;
 		padding: 0.65em 0.75em;
 		background: none;
-		border: solid 2px rgba(185, 186, 187, 0.25);
+		border: solid 2px rgba(20, 124, 255, 0.44);
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
@@ -2155,7 +2157,7 @@
 		-webkit-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: rgba(95, 120, 152, 0.85);
 		border: 0;
 		border-radius: 3.5em;
 		color: #fff;

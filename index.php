@@ -66,7 +66,7 @@ if($_POST['submit']){
 							<li><a href="#services" class="hvr-float-shadow">Services</a></li>
 							<li><a href="#artists" class="hvr-float-shadow">Artists</a></li>
 							<li><a href="#work" class="hvr-float-shadow">Gallery</a></li>
-							<li><a href="#contact" class="hvr-float-shadow">Contact</a></li>
+							<li><a href="#formscroll" class="hvr-float-shadow">Contact</a></li>
 						</ul>
 					</nav>
 
@@ -191,13 +191,13 @@ if($_POST['submit']){
 					<div class="box container 75%">
 
 					<!-- Contact Form -->
-							<form method="post" action="index.php#contact">
+							<form method="post" action="index.php#contact" id="formscroll">
 								<div class="row 50%">
 									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" required /></div>
 									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" required /></div>
 								</div>
 								<div class="row 50%">
-									<div class="12u"><textarea name="msg" placeholder="Message" rows="6" required></textarea></div>
+									<div class="12u"><textarea name="msg" placeholder="Message" rows="3" required></textarea></div>
 								</div>
 								<div class="row">
 									<div class="12u">
@@ -210,9 +210,8 @@ if($_POST['submit']){
 
 					</div>
 				</div>
-			</section>
-
-		<!-- Footer -->
+</section>
+<!-- Footer -->
 			<footer id="footer">
 
 				<!-- Icons -->
@@ -229,7 +228,6 @@ if($_POST['submit']){
 					</ul>
 
 			</footer>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/vegas.js"></script>
