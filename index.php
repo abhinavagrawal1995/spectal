@@ -154,7 +154,7 @@ if($_POST['submit']){
 					</header>
 
 					<!-- Lightbox Gallery  -->
-						<div class="container 75% gallery">
+						<div class="container gallery">
 							<div class="row 0% images">
 								<div class="4u 6u(mobile)"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="Reverberate." alt="" /></a></div>
 								<div class="4u 6u(mobile)"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Illuminate." alt="" /></a></div>
