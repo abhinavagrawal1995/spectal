@@ -2075,12 +2075,13 @@
 		outline: none;
 	}
 
+
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #9ac8e9;
+			border-color: #5166e5;
 		}
 
 	form input[type="text"],
@@ -2214,7 +2215,7 @@
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8d5a3;
+			background-color: #5166e5;
 		}
 
 		input[type="button"]:active,
@@ -2222,7 +2223,7 @@
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88b583;
+			background-color: #5166e5;
 		}
 
 		input[type="button"].style2,
