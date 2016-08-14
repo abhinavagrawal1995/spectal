@@ -158,12 +158,8 @@ if($_POST['submit']){
 							<div class="row 0% images">
 								<div class="4u 6u(mobile)"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="Reverberate." alt="" /></a></div>
 								<div class="4u 6u(mobile)"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Illuminate." alt="" /></a></div>
-							</div>
-							<div class="row 0% images">
 								<div class="4u 6u(mobile)"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Lights. Stage. Magic." alt="" /></a></div>								
 								<div class="4u 6u(mobile)"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Reds, blues and other musical hues." alt="" /></a></div>
-							</div>
-							<div class="row 0% images">
 								<div class="4u 6u(mobile)"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Immersion." alt="" /></a></div>
 								<div class="4u 6u(mobile)"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Levitate." alt="" /></a></div>
 							</div>
@@ -221,6 +217,8 @@ if($_POST['submit']){
 						<li><a href="https://www.facebook.com/Spectal-Management-1477596392547676/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+						<li style="font-size: 0.8em;">Chow Chow : +91-9650036283</li>
+
 					</ul>
 
 				<!-- Menu -->
