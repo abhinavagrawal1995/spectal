@@ -2924,7 +2924,7 @@
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		min-height: 100vh;
+		min-height: 100vh !important;
 		overflow:hidden;
 		height:auto;
 	}
@@ -2936,7 +2936,7 @@
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		min-height: 100vh;
+		min-height: 100vh !important;
 		overflow-y: hidden;
 		height:auto;
 	}
@@ -2945,7 +2945,7 @@
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		min-height: 100vh;
+		min-height: 100vh !important;
     	overflow-y: hidden;
 		height:auto;
 	}

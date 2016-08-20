@@ -94,7 +94,9 @@ if($_POST['submit']){
 					<header>
 						<h2>About Us</h2>
 					</header>
+					<div style="margin-top:5em;">
 					<strong><p>We are an artist management agency that brands artists and takes under the wing the task of getting them what they deserve.</p><p>Be it management of bookings, dealing with the press, or ensuring social media presence: we at Spectal thrive to be the ultimate support structure of our artists in the industry they belong to.</p><p>If you want to boost your career with just the right amount of exposure, you've got to be a part of our Spectrum of Talent. Allow us to show how we can serve you.</p></strong>
+					</div>
 				</div>
 			</section>
 
@@ -203,6 +205,9 @@ if($_POST['submit']){
 										</ul>
 									</div>
 								</div>
+								<div class="row 50%">
+									<div class="6u" style="float:right;">Chow Chow : +91-9650036283</div>
+								</div>
 							</form>
 
 					</div>
@@ -210,21 +215,23 @@ if($_POST['submit']){
 </section>
 <!-- Footer -->
 			<footer id="footer">
-
+				<!-- Menu -->
+					<ul class="menu">
+						<!-- <li style="font-size: 0.8em;">Chow Chow : +91-9650036283</li> -->
+						<li style="font-size: 0.8em;">&copy; Spectal Talent Management</li>
+						<li style="font-size: 0.6em;margin-bottom: 2em;	">Developer: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
+					</ul>
 				<!-- Icons -->
 					<ul class="actions">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.facebook.com/Spectal-Management-1477596392547676/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
-						<li style="font-size: 0.8em;">Chow Chow : +91-9650036283</li>
+						
 
 					</ul>
 
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Spectal Talent Management</li><li style="font-size: 0.6em;">Developer: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
-					</ul>
+				
 
 			</footer>
 		<!-- Scripts -->
@@ -263,38 +270,38 @@ if($_POST['submit']){
 				});
 			</script>
 			<script>
-				imgarr=['images/artist1.jpg'];
-				i=0;
+				// imgarr=['images/artist1.jpg'];
+				// i=0;
 
-				$("#artist-prev").click(function(){ 
-					if(i==0)
-						i=imgarr.length;
-					i--;
-					$("#artists").css('background-image', 'url("'+imgarr[i]+'")');
-				});
-				$("#artist-next").click(function(){ 
-					i++;
-					if(i==imgarr.length)
-						i=0;
-					$("#artists").css('background-image', 'url("'+imgarr[i]+'")');
-				});
+				// $("#artist-prev").click(function(){ 
+				// 	if(i==0)
+				// 		i=imgarr.length;
+				// 	i--;
+				// 	$("#artists").css('background-image', 'url("'+imgarr[i]+'")');
+				// });
+				// $("#artist-next").click(function(){ 
+				// 	i++;
+				// 	if(i==imgarr.length)
+				// 		i=0;
+				// 	$("#artists").css('background-image', 'url("'+imgarr[i]+'")');
+				// });
 			</script>
 			<script>
-				servarr=['images/service1.jpg','images/service2.jpg'];
-				j=0;
+				// servarr=['images/service1.jpg','images/service2.jpg'];
+				// j=0;
 
-				$("#services-prev").click(function(){ 
-					if(j==0)
-						j=servarr.length;
-					j--;
-					$("#services").css('background-image', 'url("'+servarr[j]+'")');
-				});
-				$("#services-next").click(function(){ 
-					j++;
-					if(j==servarr.length)
-						j=0;
-					$("#services").css('background-image', 'url("'+servarr[j]+'")');
-				});
+				// $("#services-prev").click(function(){ 
+				// 	if(j==0)
+				// 		j=servarr.length;
+				// 	j--;
+				// 	$("#services").css('background-image', 'url("'+servarr[j]+'")');
+				// });
+				// $("#services-next").click(function(){ 
+				// 	j++;
+				// 	if(j==servarr.length)
+				// 		j=0;
+				// 	$("#services").css('background-image', 'url("'+servarr[j]+'")');
+				// });
 			</script>
 
 			<script type="text/javascript">
