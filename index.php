@@ -205,30 +205,31 @@ if($_POST['submit']){
 										</ul>
 									</div>
 								</div>
-								<div class="row 50%">
-									<div class="6u" style="float:right;">Chow Chow : +91-9650036283</div>
-								</div>
+								
 							</form>
 
 					</div>
+					<!-- <div class="row" style="float:right;">
+						<div class="12u" style="float:right;color:white;">Chow Chow : +91-9650036283</div>
+					</div> -->
 				</div>
 </section>
 <!-- Footer -->
 			<footer id="footer">
 				<!-- Menu -->
 					<ul class="menu">
-						<!-- <li style="font-size: 0.8em;">Chow Chow : +91-9650036283</li> -->
-						<li style="font-size: 0.8em;">&copy; Spectal Talent Management</li>
-						<li style="font-size: 0.6em;margin-bottom: 2em;	">Developer: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
+						<li style="font-size: 0.8em;margin-bottom: 2em;	">Chow Chow : +91-9650036283</li>
+						
 					</ul>
 				<!-- Icons -->
 					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/Spectal-Management-1477596392547676/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+						<li><a href="https://twitter.com/SpectalM" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="facebook.com/spectalmanagement" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/spectalmanagement/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<!-- <li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li> -->
+						<!-- <li style="font-size: 0.8em;">&copy; Spectal Talent Management</li> -->
 						
-
+						<li style="font-size: 0.6em;">Developer: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
 					</ul>
 
 				
